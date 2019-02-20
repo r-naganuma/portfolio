@@ -115,13 +115,13 @@
 									2018.01
 								</li>
 								<li class="content_top--about--txtbox--cts">
-									Webディレクターとして、航空会社の国際線ブッキングページの運用を担当。
+									Webディレクターとして、航空会社のサイト運用業務を担当。
 								</li>
 								<li class="content_top--about--txtbox--date">
 									2018.08
 								</li>
 								<li class="content_top--about--txtbox--cts">
-									技術的なスキルを求め、転職。フロントエンジニアとして主にアパレル会社のWebサイト構築・運用を担当。
+									技術的なスキルを求め、転職。フロントエンドエンジニアとしてWebサイト構築・運用業務を担当。
 								</li>
 							</ul>
 						</div>

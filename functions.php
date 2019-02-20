@@ -228,6 +228,7 @@ function latte_new_setup() {
 		echo '<li class="menu-item"><a href="' . esc_url( home_url( '/about' ) ) . '">'. __('About me', 'latte') .'</a></li>';
 		echo '<li class="menu-item"><a href="' . esc_url( home_url( '/works' ) ) . '">'. __('Works', 'latte') .'</a></li>';
 		echo '<li class="menu-item"><a href="' . esc_url( home_url( '/blog' ) ) . '">'. __('Blog', 'latte') .'</a></li>';
+		echo '<li class="menu-item"><a href="mailto:rn.rn.19.zzz@gmail.com">'. __('Contact', 'latte') .'</a></li>';
 	echo '</ul>';
 	echo '</div>';
 
