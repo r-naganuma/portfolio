@@ -174,25 +174,7 @@ function latte_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'latte_scripts' );
 
-function my_enqueue_scripts() {
-   // barba.js本体の読み込み
-   wp_enqueue_script(
-      'barba',
-      '//cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js',
-      array(),
-      '1.0.0',
-      true
-   );
-   // barbar-custom.jsの読み込み
-   wp_enqueue_script(
-      'barba-custom',
-      get_template_directory_uri() . '/assets/js/barba-custom.js',
-      array(),
-      false,
-      true
-   );
-}
-add_action( 'wp_enqueue_scripts', 'my_enqueue_scripts' );
+
 
 // Registering and enqueuing scripts/stylesheets for admin panel.
 function latte_admin_scripts($hook) {
@@ -224,10 +206,10 @@ function latte_new_setup() {
 
 	echo '<div class="menu-short-container">';
 	echo '<ul id="menu-short" class="latte-push-menu menu">';
-		echo '<li class="menu-item"><a href="' . esc_url( home_url() ) . '">'. __('Home', 'latte') .'</a></li>';
-		echo '<li class="menu-item"><a href="' . esc_url( home_url( '/about' ) ) . '">'. __('About me', 'latte') .'</a></li>';
-		echo '<li class="menu-item"><a href="' . esc_url( home_url( '/works' ) ) . '">'. __('Works', 'latte') .'</a></li>';
-		echo '<li class="menu-item"><a href="' . esc_url( home_url( '/blog' ) ) . '">'. __('Blog', 'latte') .'</a></li>';
+		echo '<li class="menu-item"><a class="movepage" href="' . esc_url( home_url() ) . '">'. __('Home', 'latte') .'</a></li>';
+		echo '<li class="menu-item"><a class="movepage" href="' . esc_url( home_url( '/about' ) ) . '">'. __('About me', 'latte') .'</a></li>';
+		echo '<li class="menu-item"><a class="movepage" href="' . esc_url( home_url( '/works' ) ) . '">'. __('Works', 'latte') .'</a></li>';
+		echo '<li class="menu-item"><a class="movepage" href="' . esc_url( home_url( '/blog' ) ) . '">'. __('Blog', 'latte') .'</a></li>';
 		echo '<li class="menu-item"><a href="mailto:rn.rn.19.zzz@gmail.com">'. __('Contact', 'latte') .'</a></li>';
 	echo '</ul>';
 	echo '</div>';

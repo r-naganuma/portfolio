@@ -1,5 +1,14 @@
 <?php get_header(); ?>
-
+		<div id="load1"></div>
+		<div id="load2"></div>
+		<div id="load3"></div>
+		<div id="load4"></div>
+		<div id="load5"></div>
+		<div id="load6"></div>
+		<div id="load7"></div>
+		<div id="load8"></div>
+		<div id="load9"></div>
+		<div id="load10"></div>
 		<div class="blog">
 			<div class="row content_top">
 				<div class="content_top--blog">

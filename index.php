@@ -4,7 +4,8 @@
 ?>
 
 <?php if( isset($latte_preloader_display) && $latte_preloader_display != 1 ): ?>
-	<div class="preloader"><div class="status">
+	<div class="preloader">
+		<div class="status">
 		<svg viewBox="0 0 800 600">
 		  <symbol id="s-text">
 		    <text text-anchor="middle"
@@ -39,7 +40,16 @@
 		</div>
 	</div>
 <?php endif; ?>
-
+		<div id="load1"></div>
+		<div id="load2"></div>
+		<div id="load3"></div>
+		<div id="load4"></div>
+		<div id="load5"></div>
+		<div id="load6"></div>
+		<div id="load7"></div>
+		<div id="load8"></div>
+		<div id="load9"></div>
+		<div id="load10"></div>
 		<section>
 		<header class="archive-header">
 			<div class="cover-container row">
@@ -124,7 +134,7 @@
 					</div>
 				</div>
 				<div class="button-more">
-					<a href="<?php echo home_url('/about'); ?>" title="View more"></a>
+					<a class="movepage" href="<?php echo home_url('/about'); ?>" title="View more"></a>
 				</div>
 			</div>
 			</section>
@@ -136,7 +146,7 @@
 				<h2>Works</h2>
 				<div class="content_top--works--box">
 					<div class="content_top--works--list">
-						<a href="<?php echo home_url('/works#no1'); ?>">
+						<a class="movepage" href="<?php echo home_url('/works#no1'); ?>">
 							<img class="in_view fade_right" src="<?php echo get_template_directory_uri(); ?>/images/works01.png">
 							<div class="content_top--mask">
 								<div class="content_top--caption">＋</div>
@@ -145,7 +155,7 @@
 					</div>
 				</div>
 				<div class="button-more">
-					<a href="<?php echo home_url('/works'); ?>" title="View more"></a>
+					<a class="movepage" href="<?php echo home_url('/works'); ?>" title="View more"></a>
 				</div>
 			</div>
 			</section>

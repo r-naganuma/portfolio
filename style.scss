@@ -160,8 +160,8 @@ $sp: 768px;  // スマホ
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #222;
-	z-index: 99999;
+	background-color: #fff;
+	z-index: 99997;
 	height: 100%;
 	width: 100%;
 	overflow: hidden !important;
@@ -169,7 +169,7 @@ $sp: 768px;  // スマホ
 .status {
   font: 7em Sanchez;
 }
-$colors: #f3b803, #fff, #f3b803, #fff, #f3b803;
+$colors: #000000, #fafafa, #000000, #fafafa, #000000;
 
 .text--line2 {
   font-size: .7em;
@@ -179,6 +179,7 @@ $colors: #f3b803, #fff, #f3b803, #fff, #f3b803;
   position: absolute;
   width: 100%;
   height: 100%;
+  z-index: 99999;
   }
 
 $max: 5;
@@ -210,6 +211,179 @@ $stroke-step: 3%;
     stroke-dashoffset: $stroke-step * $max;  
     stroke-dasharray: 0 $stroke-step * $max*2.5;
   }
+}
+
+#load1.is-hidden,
+#load2.is-hidden,
+#load3.is-hidden,
+#load4.is-hidden,
+#load5.is-hidden,
+#load6.is-hidden,
+#load7.is-hidden,
+#load8.is-hidden,
+#load9.is-hidden,
+#load10.is-hidden {
+opacity: 0;
+top: -100%;
+}
+#load1 {
+background-color: #fff;
+position: fixed;
+top: 0%;
+left: 0;
+width: 10%;
+height: 100%;
+z-index: 99998;
+transition: ease .2s;
+border-right: 2px solid #000;
+
+@include sp {
+	border-right: 1px solid #000;
+};
+}
+#load2 {
+background-color: #fff;
+position: fixed;
+top: 0%;
+left: 10%;
+width: 10%;
+height: 100%;
+z-index: 99998;
+transition: ease .4s;
+border-right: 2px solid #000;
+
+@include sp {
+	border-right: 1px solid #000;
+};
+}
+#load3 {
+background-color: #fff;
+position: fixed;
+top: 0%;
+left: 20%;
+width: 10%;
+height: 100%;
+z-index: 99998;
+transition: ease .6s;
+border-right: 2px solid #000;
+
+@include sp {
+	border-right: 1px solid #000;
+};
+}
+#load4 {
+background-color: #fff;
+position: fixed;
+top: 0%;
+left: 30%;
+width: 10%;
+height: 100%;
+z-index: 99998;
+transition: ease .8s;
+border-right: 2px solid #000;
+
+@include sp {
+	border-right: 1px solid #000;
+};
+}
+#load5 {
+background-color: #fff;
+position: fixed;
+top: 0%;
+left: 40%;
+width: 10%;
+height: 100%;
+z-index: 99998;
+transition: ease 1.0s;
+border-right: 1px solid #000;
+}
+#load6 {
+background-color: #fff;
+position: fixed;
+top: 0%;
+left: 50%;
+width: 10%;
+height: 100%;
+z-index: 99998;
+transition: ease 1.0s;
+border-right: 2px solid #000;
+
+@include sp {
+	border-right: 1px solid #000;
+};
+}
+#load7 {
+background-color: #fff;
+position: fixed;
+top: 0%;
+left: 60%;
+width: 10%;
+height: 100%;
+z-index: 99998;
+transition: ease .8s;
+border-right: 2px solid #000;
+
+@include sp {
+	border-right: 1px solid #000;
+};
+}
+#load8 {
+background-color: #fff;
+position: fixed;
+top: 0%;
+left: 70%;
+width: 10%;
+height: 100%;
+z-index: 99998;
+transition: ease .6s;
+border-right: 2px solid #000;
+
+@include sp {
+	border-right: 1px solid #000;
+};
+}
+#load9 {
+background-color: #fff;
+position: fixed;
+top: 0%;
+left: 80%;
+width: 10%;
+height: 100%;
+z-index: 99998;
+transition: ease .4s;
+border-right: 2px solid #000;
+
+@include sp {
+	border-right: 1px solid #000;
+};
+}
+#load10 {
+background-color: #fff;
+position: fixed;
+top: 0%;
+left: 90%;
+width: 10%;
+height: 100%;
+z-index: 99998;
+transition: ease .2s;
+border-right: 2px solid #000;
+
+@include sp {
+	border-right: 1px solid #000;
+};
+}
+#loading span {
+font: 2em Sanchez;
+display: block;
+text-align: center;
+width: 100%;
+height: 40px;
+color: #f3b803;
+letter-spacing: 4px;
+text-indent: -4px;
+position: absolute;
+top: calc( 50% - 10px );
+left: 0;
 }
 /*
  * Custom CSS
@@ -480,39 +654,6 @@ a.main__scroll span::before {
   }
 }
 
-/*
- * Section 2 - About
- */
-/*.about {
-	width: 100%;
-	background: #F5F5F5;
-}
-.about .row {
-	padding: 50px 75px;
-}
-.about .about-header {
-	padding-bottom: 50px;
-	text-align: center;
-}
-.about .about-header h2 {
-	font-size: 40px;
-	font-family: "Sanchez",sans-serif;
-	font-weight: bold;
-	word-break: keep-all;
-}
-.about .about-header h3 {
-	color: #9F8E8E;
-	font-size: 15px;
-	margin-top: 0;
-}
-.about .lead {
-	margin-top: 20px;
-}
-.about .customizer-hidden {
-	display: none;
-}
-*/
-
 .content_top{
 	width: 100%;
 	background: #222;
@@ -524,6 +665,15 @@ a.main__scroll span::before {
 	&--about{
 		width: 1100px;
 		margin: 0 auto 120px;
+		position: relative;
+
+		.particle {
+		    position: fixed;
+		    border-radius: 50%;
+		    background: #f3b803;
+		    opacity: 0.5;
+		}
+
 
 		@include sp {
 			width: 100%;
@@ -678,6 +828,7 @@ a.main__scroll span::before {
 			display: block;
 			position: relative;
 			overflow: hidden;
+			cursor: pointer;
 
 			&:hover{
  				background: rgba(0,0,0,.7);
@@ -1116,6 +1267,30 @@ a.main__scroll span::before {
   }
 }
 
+@for $i from 1 through 20 {
+    @keyframes particle-animation-#{$i} {
+        100% {
+            transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+        }
+    }
+    
+    .particle:nth-child(#{$i}){
+        animation: particle-animation-#{$i} 50s infinite;
+        animation-direction:alternate;
+        $size: random(80) + 50 + px;
+        height: $size;
+        width: $size;
+        animation-delay: -$i * .2s;
+        transform: translate3d((random(120) * 1vw), (random(120) * 1vh), (random(100) * 1px));
+
+
+
+		@include sp {
+        	$size: random(80) + 5 + px;
+		};
+    }
+}
+
 
 /* About me */
 .content_about--love{
@@ -1408,7 +1583,7 @@ a.main__scroll span::before {
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 3;
     display: none;
 }
 .click_inner{

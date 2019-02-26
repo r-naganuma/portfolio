@@ -1,5 +1,14 @@
 <?php get_header(); ?>
-
+		<div id="load1"></div>
+		<div id="load2"></div>
+		<div id="load3"></div>
+		<div id="load4"></div>
+		<div id="load5"></div>
+		<div id="load6"></div>
+		<div id="load7"></div>
+		<div id="load8"></div>
+		<div id="load9"></div>
+		<div id="load10"></div>
 		<div class="blog">
 			<div class="row content_top">
 				<div class="content_top--blog">
@@ -22,7 +31,7 @@
 										$img = wp_get_attachment_image_src($img_id, 'full');
 									?>
 							<div class="content_top--blog--list in_view fade_in">
-								<a href="<?php the_permalink(); ?>">
+								<a href="<?php the_permalink(); ?>" class="movepage">
 									<img src="<?php echo $img[0]; ?>">
 									<div class="content_top--mask">
 										<div class="content_top--caption">Read more</div>

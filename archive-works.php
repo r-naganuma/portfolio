@@ -1,5 +1,14 @@
 <?php get_header(); ?>
-
+	<div id="load1"></div>
+	<div id="load2"></div>
+	<div id="load3"></div>
+	<div id="load4"></div>
+	<div id="load5"></div>
+	<div id="load6"></div>
+	<div id="load7"></div>
+	<div id="load8"></div>
+	<div id="load9"></div>
+	<div id="load10"></div>
 		<div class="blog">
 			<div class="row content_top">
 			<!-- <?php
@@ -53,7 +62,7 @@
 									$img_sp = wp_get_attachment_image_src($img_id_sp, 'full');
 								?>
 						<div class="content_top--works--list">
-							<a id="no<?php echo $num; ?>" href="">
+							<a id="no<?php echo $num; ?>">
 								<img class="in_view fade_right" src="<?php echo $img[0]; ?>">
 								<div class="content_top--mask">
 									<div class="content_top--caption">＋</div>

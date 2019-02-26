@@ -1,5 +1,14 @@
 <?php get_header(); ?>
-
+        <div id="load1"></div>
+        <div id="load2"></div>
+        <div id="load3"></div>
+        <div id="load4"></div>
+        <div id="load5"></div>
+        <div id="load6"></div>
+        <div id="load7"></div>
+        <div id="load8"></div>
+        <div id="load9"></div>
+        <div id="load10"></div>
 		<div class="blog">
 			<div class="row content_top">
 			<!-- <?php
@@ -26,6 +35,26 @@
 						<?php get_template_part( 'content', 'none' ); ?>
 				<?php endif; ?> -->
 				<div id="sec01" class="content_top--about">
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle pc_on"></div>
+                    <div class="particle pc_on"></div>
+                    <div class="particle pc_on"></div>
+                    <div class="particle pc_on"></div>
+                    <div class="particle pc_on"></div>
+                    <div class="particle pc_on"></div>
+                    <div class="particle pc_on"></div>
+                    <div class="particle pc_on"></div>
+                    <div class="particle pc_on"></div>
+                    <div class="particle pc_on"></div>
+                    <div class="particle pc_on"></div>
+                    <div class="particle pc_on"></div>
 					<h2>About me</h2>
 					<div class="content_about--love content_about--love01 in_view fade_bottom">
 						<div class="content_about--love--pic">

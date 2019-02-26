@@ -93,3 +93,205 @@ jQuery(document).ready(function($) {
 	}
 
 });
+
+jQuery(function($){
+	$(function(){
+	var loading = $('#load1');
+	var links = $('a.movepage');
+	// ローディング画面を隠す
+	loading.addClass('is-hidden');
+	links.on('click',function(event){
+	// クリック時に発生するイベントをキャンセル
+	event.preventDefault();
+	// ローディング画面を表示
+	loading.removeClass('is-hidden');
+	// 移動先のURLを取得して指定秒数後にページ遷移する
+	var href = $(this).attr('href'), // クリックしたリンクから遷移先URLを取得
+	wait = 1000; // 待ち時間をミリ秒で指定
+	setTimeout(function(){
+	// ページ遷移の処理
+	location.href = href ;
+	}, wait);
+	});
+	});
+
+	$(function(){
+	var loading = $('#load2');
+	var links = $('a.movepage');
+	// ローディング画面を隠す
+	loading.addClass('is-hidden');
+	links.on('click',function(event){
+	// クリック時に発生するイベントをキャンセル
+	event.preventDefault();
+	// ローディング画面を表示
+	loading.removeClass('is-hidden');
+	// 移動先のURLを取得して指定秒数後にページ遷移する
+	var href = $(this).attr('href'), // クリックしたリンクから遷移先URLを取得
+	wait = 1000; // 待ち時間をミリ秒で指定
+	setTimeout(function(){
+	// ページ遷移の処理
+	location.href = href ;
+	}, wait);
+	});
+	});
+
+	$(function(){
+	var loading = $('#load3');
+	var links = $('a.movepage');
+	// ローディング画面を隠す
+	loading.addClass('is-hidden');
+	links.on('click',function(event){
+	// クリック時に発生するイベントをキャンセル
+	event.preventDefault();
+	// ローディング画面を表示
+	loading.removeClass('is-hidden');
+	// 移動先のURLを取得して指定秒数後にページ遷移する
+	var href = $(this).attr('href'), // クリックしたリンクから遷移先URLを取得
+	wait = 1000; // 待ち時間をミリ秒で指定
+	setTimeout(function(){
+	// ページ遷移の処理
+	location.href = href ;
+	}, wait);
+	});
+	});
+
+	$(function(){
+	var loading = $('#load4');
+	var links = $('a.movepage');
+	// ローディング画面を隠す
+	loading.addClass('is-hidden');
+	links.on('click',function(event){
+	// クリック時に発生するイベントをキャンセル
+	event.preventDefault();
+	// ローディング画面を表示
+	loading.removeClass('is-hidden');
+	// 移動先のURLを取得して指定秒数後にページ遷移する
+	var href = $(this).attr('href'), // クリックしたリンクから遷移先URLを取得
+	wait = 1000; // 待ち時間をミリ秒で指定
+	setTimeout(function(){
+	// ページ遷移の処理
+	location.href = href ;
+	}, wait);
+	});
+	});
+
+	$(function(){
+	var loading = $('#load5');
+	var links = $('a.movepage');
+	// ローディング画面を隠す
+	loading.addClass('is-hidden');
+	links.on('click',function(event){
+	// クリック時に発生するイベントをキャンセル
+	event.preventDefault();
+	// ローディング画面を表示
+	loading.removeClass('is-hidden');
+	// 移動先のURLを取得して指定秒数後にページ遷移する
+	var href = $(this).attr('href'), // クリックしたリンクから遷移先URLを取得
+	wait = 1000; // 待ち時間をミリ秒で指定
+	setTimeout(function(){
+	// ページ遷移の処理
+	location.href = href ;
+	}, wait);
+	});
+	});
+
+	$(function(){
+	var loading = $('#load6');
+	var links = $('a.movepage');
+	// ローディング画面を隠す
+	loading.addClass('is-hidden');
+	links.on('click',function(event){
+	// クリック時に発生するイベントをキャンセル
+	event.preventDefault();
+	// ローディング画面を表示
+	loading.removeClass('is-hidden');
+	// 移動先のURLを取得して指定秒数後にページ遷移する
+	var href = $(this).attr('href'), // クリックしたリンクから遷移先URLを取得
+	wait = 1000; // 待ち時間をミリ秒で指定
+	setTimeout(function(){
+	// ページ遷移の処理
+	location.href = href ;
+	}, wait);
+	});
+	});
+
+	$(function(){
+	var loading = $('#load7');
+	var links = $('a.movepage');
+	// ローディング画面を隠す
+	loading.addClass('is-hidden');
+	links.on('click',function(event){
+	// クリック時に発生するイベントをキャンセル
+	event.preventDefault();
+	// ローディング画面を表示
+	loading.removeClass('is-hidden');
+	// 移動先のURLを取得して指定秒数後にページ遷移する
+	var href = $(this).attr('href'), // クリックしたリンクから遷移先URLを取得
+	wait = 1000; // 待ち時間をミリ秒で指定
+	setTimeout(function(){
+	// ページ遷移の処理
+	location.href = href ;
+	}, wait);
+	});
+	});
+
+	$(function(){
+	var loading = $('#load8');
+	var links = $('a.movepage');
+	// ローディング画面を隠す
+	loading.addClass('is-hidden');
+	links.on('click',function(event){
+	// クリック時に発生するイベントをキャンセル
+	event.preventDefault();
+	// ローディング画面を表示
+	loading.removeClass('is-hidden');
+	// 移動先のURLを取得して指定秒数後にページ遷移する
+	var href = $(this).attr('href'), // クリックしたリンクから遷移先URLを取得
+	wait = 1000; // 待ち時間をミリ秒で指定
+	setTimeout(function(){
+	// ページ遷移の処理
+	location.href = href ;
+	}, wait);
+	});
+	});
+
+	$(function(){
+	var loading = $('#load9');
+	var links = $('a.movepage');
+	// ローディング画面を隠す
+	loading.addClass('is-hidden');
+	links.on('click',function(event){
+	// クリック時に発生するイベントをキャンセル
+	event.preventDefault();
+	// ローディング画面を表示
+	loading.removeClass('is-hidden');
+	// 移動先のURLを取得して指定秒数後にページ遷移する
+	var href = $(this).attr('href'), // クリックしたリンクから遷移先URLを取得
+	wait = 1000; // 待ち時間をミリ秒で指定
+	setTimeout(function(){
+	// ページ遷移の処理
+	location.href = href ;
+	}, wait);
+	});
+	});
+
+	$(function(){
+	var loading = $('#load10');
+	var links = $('a.movepage');
+	// ローディング画面を隠す
+	loading.addClass('is-hidden');
+	links.on('click',function(event){
+	// クリック時に発生するイベントをキャンセル
+	event.preventDefault();
+	// ローディング画面を表示
+	loading.removeClass('is-hidden');
+	// 移動先のURLを取得して指定秒数後にページ遷移する
+	var href = $(this).attr('href'), // クリックしたリンクから遷移先URLを取得
+	wait = 1000; // 待ち時間をミリ秒で指定
+	setTimeout(function(){
+	// ページ遷移の処理
+	location.href = href ;
+	}, wait);
+	});
+	});
+})
